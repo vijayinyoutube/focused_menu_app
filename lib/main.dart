@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter focus menu',
+      title: 'Flutter Focus Menu',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

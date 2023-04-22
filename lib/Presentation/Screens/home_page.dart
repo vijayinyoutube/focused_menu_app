@@ -53,11 +53,12 @@ Widget buildListItems(BuildContext context, int index) => FocusedMenuHolder(
             trailingIcon: const Icon(Icons.favorite_border),
             onPressed: () {}),
         FocusedMenuItem(
+          backgroundColor: Colors.red,
             title: const Text(
               "Delete",
-              style: TextStyle(color: Colors.redAccent),
+              style: TextStyle(color: Colors.white),
             ),
-            trailingIcon: const Icon(Icons.delete, color: Colors.redAccent),
+            trailingIcon: const Icon(Icons.delete, color: Colors.white),
             onPressed: () {}),
       ],
       onPressed: () {},
